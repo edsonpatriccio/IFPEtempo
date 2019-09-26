@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id" translatable="false">942574831075</string>
+    <string name="package_name" translatable="false">br.edu.ifpe.ifpetempo</string>
+    <string name="achievement_welcome" translatable="false">CgkI44varrcbEAIQAQ</string>
+    <string name="achievement_do_it_now" translatable="false">CgkI44varrcbEAIQAg</string>
+    <string name="achievement_logro3" translatable="false">CgkI44varrcbEAIQAw</string>
+    <string name="achievement_logro4" translatable="false">CgkI44varrcbEAIQBA</string>
+    <string name="achievement_logro5" translatable="false">CgkI44varrcbEAIQBQ</string>
+</resources>

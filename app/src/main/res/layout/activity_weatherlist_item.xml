@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <TextView
+        android:id="@+id/weatherListItemCityText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Alcoy"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/weatherListItemWeatherText"
+        android:layout_toLeftOf="@+id/weatherListItemWeatherText" />
+
+    <TextView
+        android:id="@+id/weatherListItemDateText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="20-12-2015"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/weatherListItemWeatherText"
+        android:layout_toStartOf="@+id/weatherListItemWeatherText"
+        android:layout_above="@+id/weatherListItemLatLng" />
+
+    <TextView
+        android:id="@+id/weatherListItemLatLng"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="-12, 12312"
+        android:layout_below="@+id/weatherListItemWeatherIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/weatherListItemWeatherText"
+        android:layout_toStartOf="@+id/weatherListItemWeatherText" />
+
+    <TextView
+        android:id="@+id/weatherListItemWeatherText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloudy"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/weatherListItemWeatherIcon"
+        android:layout_alignEnd="@+id/weatherListItemWeatherIcon" />
+
+    <ImageView
+        android:id="@+id/weatherListItemWeatherIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/cloudy"
+        android:scaleType="fitXY"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weather_rainy_anim"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/rainy_f1"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/rainy_f2"
+        android:duration="500" />
+
+</animation-list>

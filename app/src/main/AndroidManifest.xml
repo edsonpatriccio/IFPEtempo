@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ifpe.ifpetempo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.WithActionBar">
+
+        <!-- SplashActivity -->
+        <activity
+            android:name=".view.Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--ActivityHome-->
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.WithActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!-- WeatherListActivity -->
+        <activity
+            android:name=".activities.WeatherListActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.WithActionBar"></activity>
+
+        <activity
+            android:name=".activities.WeatherDetailActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.WithActionBar"></activity>
+
+        <!-- PreferencesActivity -->
+        <activity android:name=".activities.PreferencesActivity"></activity>
+
+        <!-- AlarmReceiver -->
+        <receiver android:name=".activities.AlarmReceiver" />
+    </application>
+
+</manifest>

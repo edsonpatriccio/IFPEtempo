@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.edu.ifpe.ifpetempo.activities.CadastroActivity"
+    android:id="@+id/main_cadastro"
+    >
+    <!--android:background="" -->
+
+
+    <TextView
+        android:id="@+id/texto_cadastro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/texto_cadastro"
+        android:textColor="#006400"
+        android:textSize="24sp" />
+
+
+    <LinearLayout
+        android:id="@+id/bloco_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:id="@+id/campo_nome"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/campo_nome"
+            android:maxLines="1"
+            android:layout_marginTop="5dp"
+            android:textColor="#006400"
+            />
+
+        <EditText
+            android:id="@+id/campo_curso"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/campo_curso"
+            android:maxLines="1"
+            android:layout_marginTop="5dp"
+            android:textColor="#006400"
+            />
+
+        <TextView
+            android:id="@+id/texto_cabecalho"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/texto_cabecalho"
+            android:textColor="#006400"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/horario_manha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Manhã: 07:00 - 11:50" />
+
+        <CheckBox
+            android:id="@+id/horio_tarde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Tarde: 12:45 - 17:45" />
+
+        <CheckBox
+            android:id="@+id/horio_noite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Noite: 18:30 - 22:15" />
+
+        <EditText
+            android:id="@+id/campo_logincad"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/campo_logincad"
+            android:maxLines="1"
+            android:layout_marginTop="05dp"
+            android:textColor="#006400"
+            />
+
+        <EditText
+            android:id="@+id/campo_passwordcad"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/campo_passwordcad"
+            android:maxLines="1"
+            android:layout_marginTop="05dp"
+            android:textColor="#006400"
+            />
+
+        <Button
+            android:id="@+id/bt_cadastrar"
+            android:onClick="validar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/bt_cadastrar"
+            android:textStyle="bold"
+            android:background="#21a957"
+            android:textColor="#ffffff"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

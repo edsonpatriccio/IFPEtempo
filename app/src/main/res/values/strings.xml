@@ -1,0 +1,75 @@
+<resources>
+    <!-- Texto dos menus-->
+    <string name="app_name">IFPEtempo</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_change_user">Voltar para o início</string>
+
+    <!-- Texto dos do sistema-->
+    <string name="please_insert_your_name"></string>
+    <string name="lets_go">Detalhar Previsão</string> <!-- Texto do botao buscar -->
+    <string name="welcome">Clique na previsão para detalhar</string>
+    <string name="cannot_empty_name">Name can not be empty</string>
+    <string name="loading_location"> Buscando localização...</string> <!-- Texto do circulo da busca -->
+    <string name="your_location">Sua Localização</string> <!-- Texto da localizacao -->
+    <string name="location_not_found">Localização não foi encontrado. :_(</string>
+    <string name="share_prefs_user_logged">br.edu.ifpe.ifpetempo.LOGGED_USER</string>
+    <string name="location_service_disabled">O serviço de localização está desativado.</string>
+    <string name="go_location_settings">Ir para configurações de localização.</string>
+    <string name="enable">Habilitar</string>
+    <string name="disable">Desabilitar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="location_updates_frequency">Location updates frequency</string>
+    <string name="location">Localização</string>
+    <string name="share_prefs_update_freq">br.edu.ifpe.ifpetempo.UPDATES_FREQ</string>
+   <string name="OPEN_WEATHER_MAP_API_KEY">41d32a858ee512ba71f26094edd6a6d7</string>
+    <string name="share_prefs_current_city">Nenhuma cidade encontrada.</string>
+    <string name="weather_data_not_found">Dados meteorológicos não encontrados.</string>
+    <string name="action_share_current_weather">Compartilhar a previsção atual.</string>
+    <string name="no_weather_data_to_share">Nenhuma previsão para compartilhar.</string>
+    <string name="share_with">Compartilhar com...</string>
+    <string name="in">in</string>
+    <string name="filter_hint">Filtro...</string>
+    <string name="weather_clear">Tempo aberto</string>
+    <string name="weather_thunderstorm">Tempestade</string>
+    <string name="weather_drizzle">Chuvisco</string>
+    <string name="weather_foggy">Névoa</string>
+    <string name="weather_cloudy">Nublado</string>
+    <string name="weather_snowy">Neve</string>
+    <string name="weather_rainy">Chuva</string>
+    <string name="share_prefs_update_meters">br.edu.ifpe.ifpetempo.MIN_DISTANCE</string>
+    -->
+
+    <string name="texto_login">Login</string>
+    <string name="campo_login">Usuário</string>
+    <string name="campo_senha">Senha</string>
+    <string name="bt_entrar">Entrar</string>
+    <string name="texto_novocadastro">Não possui cadastro? Clique aqui</string>
+    <string name="texto_cadastro">Cadastro</string>
+    <string name="bt_cadastrar">Cadastrar</string>
+    <string name="campo_nome">Nome</string>
+    <string name="campo_curso">Curso</string>
+    <string name="texto_cabecalho">Grade de horários:</string>
+    <string name="campo_logincad">E-mail</string>
+    <string name="campo_passwordcad">Senha</string>
+
+
+    <string name="action_sort_by_location">Previsão Atual</string> <!--Texto do Menu bar LISTA de previsao -->
+    <string name="no_location_data_available">Desculpe, não há dados disponíveis de localização.</string>
+    <string name="action_sort_by_date">Classificar por data</string>
+    <string name="location_updates">Atualizando Localização.</string>
+    <string name="share_prefs_insert_freq">br.edu.ifpe.ifpetempo.INSERT_FREQ</string>
+    <string name="delete_entry">Deseja excluir a linha da base de dados.</string>
+    <string name="are_you_sure">Você tem certeza?</string>
+    <string name="delete">Excluir</string>
+    <string name="error_connect_google_play_services">THouve um problema técnico, por favor tente novamente mais tarde</string>
+    <string name="sign_out">Sair</string>
+    <string name="sign_in_gplus_needed">Você precisa fazer o login com sua conta do Google em primeiro lugar.</string>
+    <string name="close">Fechar</string>
+    <string name="user_colon">Usuário:</string>
+    <string name="sorry_no_weather_data_available">Desculpe, não há dados meteorológicos disponíveis no momento. Tente mais tarde.</string>
+    <string name="latitude_colon">Latitude:</string>
+    <string name="longitude_colon">Longitude:</string>
+    <string name="weather_colon">Previsão:</string>
+    <string name="date_colon">Data/Hora:</string>
+    <string name="location_colon">Localização:</string>
+</resources>
